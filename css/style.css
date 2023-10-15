@@ -1,0 +1,38 @@
+/* Element global */ 
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+/* Haut de page et menu de navigation */
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+header img {
+    width: 150px;
+}
+
+header nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 65px;
+}
+
+header nav ul li a:hover {
+    background-color: rgb(231, 231, 231);
+    transition: 800ms;
+}
