@@ -36,3 +36,40 @@ header nav ul li a:hover {
     background-color: rgb(231, 231, 231);
     transition: 800ms;
 }
+
+/* Contenu principal de la page */
+main .search_button_sec {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    padding-bottom: 1;
+}
+
+main .search_button_sec a {
+    color: white;
+    text-decoration: none;
+    background-color: orangered;
+    padding: 40px;
+    border-radius: 60px;
+    font-weight: bold;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+main .search_button_sec a:hover {
+    background-color: rgb(219, 58, 0);
+    transition: 800ms;
+}
+
+.content {
+    background-color: #273036;
+    color: white;
+}
+
+.content svg {
+    background-color: white;
+}
+
+.content .presentation_sec {
+    display: flex;
+    flex-direction: column;
+}
