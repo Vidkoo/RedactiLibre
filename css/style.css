@@ -6,6 +6,11 @@ body {
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
 /* Haut de page et menu de navigation */
 
 header {
@@ -42,7 +47,7 @@ main .search_button_sec {
     display: flex;
     justify-content: center;
     padding: 100px;
-    padding-bottom: 1;
+    padding-bottom: 20px;
 }
 
 main .search_button_sec a {
@@ -61,8 +66,7 @@ main .search_button_sec a:hover {
 }
 
 .content {
-    background-color: #273036;
-    color: white;
+    background-color: #ebebeb;
 }
 
 .content svg {
@@ -72,4 +76,49 @@ main .search_button_sec a:hover {
 .content .presentation_sec {
     display: flex;
     flex-direction: column;
+    padding: 100px;
+}
+
+.content .new_article_sec {
+    background-color: white;
+    padding: 50px;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.content .new_article_sec h2 {
+    font-size: xx-large;
+}
+
+
+/* Bas de page */
+
+footer {
+    flex-direction: column;
+    background-color: rgb(46, 46, 46);
+    text-align: center;
+    padding: 10px;
+}
+
+footer h2, footer p {
+    color: white;
+}
+
+footer h2 {
+    font-size: 50px;
+}
+
+footer .social {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+footer .social a {
+    font-size: 70px;
+}
+
+footer #CGU:hover {
+    text-decoration: underline;
 }
