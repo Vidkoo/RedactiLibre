@@ -1,3 +1,12 @@
+<?php 
+/* 
+    ----------------------------------------------
+        Created by : Vidko
+        Description : redactilibre.com home page
+    ----------------------------------------------
+*/
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
     <head>
