@@ -15,6 +15,7 @@
         <title>RédactiLibre | Accueil</title>
         <script src="https://kit.fontawesome.com/4fd84f8514.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/index.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
@@ -22,22 +23,7 @@
     </head>
     <body>
         <!-- Haut de page et menu de navigation -->
-        <header>
-            <img src="img/Logo_redactilibre.png" alt="Logo avec un livre et des stylos">
-            <nav>
-                <ul>
-                    <li>
-                        <a href="index.html"><i class="fa-solid fa-house"></i> Accueil</a>
-                    </li>
-                    <li>
-                        <a href="#"><i class="fa-solid fa-right-to-bracket"></i> Inscription</a>
-                    </li>
-                    <li>
-                        <a href="#"><i class="fa-solid fa-user"></i> Connexion</a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
+        <?php include("header.php"); ?>
 
         <!-- Contenu principal de la page -->
         <main>
@@ -68,14 +54,6 @@
         </main>
 
         <!-- Bas de page -->
-        <footer>
-            <h2>Suivez-nous</h2>
-            <div class="social">
-                <a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a>
-                <a href="https://www.x.com/" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
-                <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-            </div>
-            <p>Copyright &copy; 2023 - <a href="#" id="CGU">Conditions générales d'utilisation</a></p>
-        </footer>
+        <?php include("footer.php"); ?>
     </body>
 </html>
