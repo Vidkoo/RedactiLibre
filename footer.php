@@ -1,3 +1,12 @@
+<?php 
+/* 
+    ----------------------------------------------
+        Created by : Vidko
+        Description : redactilibre.com footer page
+    ----------------------------------------------
+*/
+?>
+
 <footer>
     <h2>Suivez-nous</h2>
     <div class="social">
