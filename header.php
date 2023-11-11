@@ -1,3 +1,13 @@
+<?php 
+/* 
+    ----------------------------------------------
+        Created by : Vidko
+        Description : redactilibre.com header page
+    ----------------------------------------------
+*/
+?>
+
+
 <header>
     <img src="img/Logo_redactilibre.png" alt="Logo avec un livre et des stylos">
     <nav>
