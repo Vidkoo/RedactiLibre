@@ -13,10 +13,10 @@
     <nav>
         <ul>
             <li>
-                <a href="index.html"><i class="fa-solid fa-house"></i> Accueil</a>
+                <a href="index.php"><i class="fa-solid fa-house"></i> Accueil</a>
             </li>
             <li>
-                <a href="#"><i class="fa-solid fa-right-to-bracket"></i> Inscription</a>
+                <a href="sign_up.php"><i class="fa-solid fa-right-to-bracket"></i> Inscription</a>
             </li>
             <li>
                 <a href="#"><i class="fa-solid fa-user"></i> Connexion</a>
