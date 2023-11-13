@@ -1,0 +1,31 @@
+main {
+    margin-top: 150px;
+    margin-bottom: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+main fieldset {
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-style: none;
+    background-color: orangered;
+    padding: 30px;
+}
+
+fieldset h2, fieldset label {
+    color: white;
+}
+
+
+fieldset input {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    border-style: none;
+}
+
+fieldset input #CGU {
+    margin-left: 0;
+}
